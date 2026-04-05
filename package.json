@@ -1,0 +1,12 @@
+{
+  "name": "cdp-bridge",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP server that controls Chrome via Chrome DevTools Protocol",
+  "scripts": {
+    "start": "node src/cdp-bridge.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
