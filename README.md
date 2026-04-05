@@ -82,7 +82,7 @@ This starts a fresh profile on first launch (no existing logins/cookies), but th
 claude mcp add --transport stdio cdp-bridge -- node /path/to/cdp-bridge/src/cdp-bridge.mjs
 ```
 
-**VS Code (settings.json):**
+**VS Code (.claude.json):**
 
 ```json
 "cdp-bridge": {
